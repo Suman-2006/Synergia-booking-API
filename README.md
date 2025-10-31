@@ -173,6 +173,6 @@ synergia-event-booking-api/
 ```
 
 ## Author
-# Suman Raju K
-# CSE Student | MERN Stack Developer
+   Suman Raju K
+   CSE Student | MERN Stack Developer
 
