@@ -21,7 +21,7 @@ This project performs **CRUD operations** and includes **search and filter** fea
 
 ---
 
-## 🧩 Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |-------------|----------|
@@ -34,7 +34,7 @@ This project performs **CRUD operations** and includes **search and filter** fea
 
 ---
 
-## ⚙️ Project Setup
+## Project Setup
 
 ### Clone the Repository
 ```bash
@@ -79,13 +79,16 @@ js
 API Endpoints
 Method	Route	Description
 
-GET	/api/bookings	Get all bookings
-POST	/api/bookings	Create a new booking
-GET	/api/bookings/:id	Get booking by ID
-PUT	/api/bookings/:id	Update booking details
-DELETE	/api/bookings/:id	Delete/cancel booking
-GET	/api/bookings/search?email=xyz	Search booking by email
-GET	/api/bookings/filter?event=Synergia	Filter bookings by event
+| Method | Route                                 | Description              |
+| ------ | ------------------------------------- | ------------------------ |
+| GET    | `/api/bookings`                       | Get all bookings         |
+| POST   | `/api/bookings`                       | Create a new booking     |
+| GET    | `/api/bookings/:id`                   | Get booking by ID        |
+| PUT    | `/api/bookings/:id`                   | Update booking details   |
+| DELETE | `/api/bookings/:id`                   | Delete/cancel booking    |
+| GET    | `/api/bookings/search?email=xyz`      | Search booking by email  |
+| GET    | `/api/bookings/filter?event=Synergia` | Filter bookings by event |
+
 
 Example Request Bodies (for Postman)
 
