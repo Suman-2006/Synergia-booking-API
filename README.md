@@ -52,7 +52,7 @@ In the project root, create a file named .env and add your MongoDB connection st
 ```
 env
 Copy code
-PORT=3000
+PORT=3001
 MONGODB_URI=mongodb://localhost:27017/synergiaDB
 ```
 
@@ -61,7 +61,7 @@ MONGODB_URI=mongodb://localhost:27017/synergiaDB
 Copy code
 node server.js
 ```
-The API should now be running at:http://localhost:3000
+The API should now be running at:http://localhost:3001
 
 MongoDB Schema
 ```
@@ -172,7 +172,7 @@ synergia-event-booking-api/
 
 ```
 
-Author
-Suman Raju K
-CSE Student | MERN Stack Developer
+## Author
+# Suman Raju K
+# CSE Student | MERN Stack Developer
 
